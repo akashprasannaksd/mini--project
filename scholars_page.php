@@ -30,8 +30,13 @@ if(!isset($_SESSION['admin_name'])){
       <h3>hi, <span>scholar</span></h3>
       <h1>welcome <span><?php echo $_SESSION['admin_name'] ?></span></h1>
       <p>Phd paper submisson</p>
-      <a href="login_form.php" class="btn">login</a>
-      <a href="register_form.php" class="btn">register</a>
+      <br>
+      <br>
+      <br>
+      <br>
+<input type="file" name="paper"> file submisson
+<br>
+<br>
       <a href="logout.php" class="btn">logout</a>
    </div>
 
